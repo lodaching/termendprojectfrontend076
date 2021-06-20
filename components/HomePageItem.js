@@ -1,4 +1,5 @@
 import style from './HomePageItem.module.scss'
+import Image from 'next/image';
 
 export default function HomePageItem({image, title, description, href}) {
 
@@ -6,7 +7,8 @@ export default function HomePageItem({image, title, description, href}) {
         <a href={href}>
             <div className={style.card}>
                 
-                <img src={image} className={style.image}/>
+                {/* <img src={image} className={style.image}/> */}
+                <Image src={image} className={style.image}/>
                 <div className={style.title}>
                     <h4>{title}</h4>
                 </div>
