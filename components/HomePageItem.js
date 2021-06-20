@@ -8,7 +8,7 @@ export default function HomePageItem({image, title, description, href}) {
             <div className={style.card}>
                 
                 {/* <img src={image} className={style.image}/> */}
-                <Image src={image} className={style.image}/>
+                <Image src={image} className={style.image} width={320} height={500}/>
                 <div className={style.title}>
                     <h4>{title}</h4>
                 </div>
