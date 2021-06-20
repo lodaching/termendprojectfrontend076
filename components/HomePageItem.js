@@ -1,16 +1,20 @@
 import style from './HomePageItem.module.scss'
 
-export default function HomePageItem({image, title, description}) {
+export default function HomePageItem({image, title, description, href}) {
+
     return (
-        <div className={style.card}>
-            
-            <img src={image} className={style.image}/>
-            <div className={style.title}>
-                <h4>{title}</h4>
+        <a href={href}>
+            <div className={style.card}>
+                
+                <img src={image} className={style.image}/>
+                <div className={style.title}>
+                    <h4>{title}</h4>
+                </div>
+                <div className={style.content}>
+                    <p>{description}</p>
+                </div>
             </div>
-            <div className={style.content}>
-                <p>{description}</p>
-            </div>
-        </div>
+
+        </a>
     )
 }

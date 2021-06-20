@@ -1,0 +1,50 @@
+.navClass {
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+
+    ul {
+      list-style: none;
+      margin: 5px;
+      padding: .2em 2em;
+      float: right;
+    }
+    
+    ul li {
+      display: inline-block;
+      margin: 0;
+      padding: .2em .7em;
+    }
+    
+    a {
+      width: 100%;
+      height: 100%;
+      color: white;
+      text-decoration: none;
+      font-family: Ubuntu;
+      font-size: 1.15em;
+      font-weight: lighter;
+      letter-spacing: 1px;
+      transition: .25s ease-in-out;
+    }
+    
+    a:hover {
+      color: rgb(220, 120, 0);
+    }
+  }
+  
+  
+  
+  .navbg {
+    content:"";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: #183e22;
+    opacity: 1;
+  }
