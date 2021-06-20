@@ -1,5 +1,6 @@
 import styles from './Header.module.scss'
 import {Dropdown} from 'react-bootstrap'
+import Link from 'next/link'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Header() {
@@ -7,7 +8,7 @@ export default function Header() {
         <nav className={styles.navClass}>
           <div className={styles.navbg}></div>
           <ul>
-            <li><a href="/home">Home</a></li>
+            <li><Link href="/">Home</Link></li>
             <li className={styles.dropdown}>
                 <Dropdown>
                     <Dropdown.Toggle variant="success" id="dropdown-basic">
