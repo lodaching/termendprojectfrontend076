@@ -11,17 +11,16 @@ export default function Header() {
             <li><a href="">Link</a></li>
             <li><a href="">Link</a></li>
             <li>
-                <Dropdown className={}>
+                <Dropdown>
                     <Dropdown.Toggle variant="success" id="dropdown-basic">
                         Category
                     </Dropdown.Toggle>
 
                     <Dropdown.Menu>
-                    <Dropdown.Item href="/shop/hats">Hats</Dropdown.Item>
-                    <Dropdown.Item href="/shop/jackets">Jackets</Dropdown.Item>
-                    <Dropdown.Item href="/shop/sneakers">Sneakers</Dropdown.Item>
-                    <Dropdown.Item href="/shop/womens">Wome</Dropdown.Item>
-                    <Dropdown.Item href="/shop/mens">Men</Dropdown.Item>
+                    <Dropdown.Item href="/introduce/elementary">國小</Dropdown.Item>
+                    <Dropdown.Item href="/introduce/junior">國中</Dropdown.Item>
+                    <Dropdown.Item href="/introduce/senior">高中</Dropdown.Item>
+                    <Dropdown.Item href="/introduce/university">大學</Dropdown.Item>
                     </Dropdown.Menu>
               </Dropdown></li>
 
