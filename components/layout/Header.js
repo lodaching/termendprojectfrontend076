@@ -11,7 +11,7 @@ export default function Header() {
             <li><a href="">Link</a></li>
             <li><a href="">Link</a></li>
             <li>
-                <Dropdown>
+                <Dropdown className={}>
                     <Dropdown.Toggle variant="success" id="dropdown-basic">
                         Category
                     </Dropdown.Toggle>
@@ -20,8 +20,8 @@ export default function Header() {
                     <Dropdown.Item href="/shop/hats">Hats</Dropdown.Item>
                     <Dropdown.Item href="/shop/jackets">Jackets</Dropdown.Item>
                     <Dropdown.Item href="/shop/sneakers">Sneakers</Dropdown.Item>
-                    <Dropdown.Item href="/shop/womens">Women's</Dropdown.Item>
-                    <Dropdown.Item href="/shop/mens">Men's</Dropdown.Item>
+                    <Dropdown.Item href="/shop/womens">Wome</Dropdown.Item>
+                    <Dropdown.Item href="/shop/mens">Men</Dropdown.Item>
                     </Dropdown.Menu>
               </Dropdown></li>
 
