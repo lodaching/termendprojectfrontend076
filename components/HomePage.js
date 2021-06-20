@@ -12,7 +12,7 @@ export default function HomePage({ datas }) {
 
     return (
       <div className={style.home}>
-
+        <h1 className={style.title}>我的作品集</h1>
         <div className={style.cardList}>
           {datas.map(({Title, url, description, id}) => (
             <HomePageItem key={id} title={Title} image={url} description={description} href={'introduce/' + stages[Title]}/>
