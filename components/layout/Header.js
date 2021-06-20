@@ -7,7 +7,7 @@ export default function Header() {
         <nav className={styles.navClass}>
           <div className={styles.navbg}></div>
           <ul>
-            <li><a href="/">Home</a></li>
+            <li><a href="/home">Home</a></li>
             <li className={styles.dropdown}>
                 <Dropdown>
                     <Dropdown.Toggle variant="success" id="dropdown-basic">
