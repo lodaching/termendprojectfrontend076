@@ -7,10 +7,8 @@ export default function Header() {
         <nav className={styles.navClass}>
           <div className={styles.navbg}></div>
           <ul>
-            <li><a href="">Link</a></li>
-            <li><a href="">Link</a></li>
-            <li><a href="">Link</a></li>
-            <li>
+            <li><a href="">Home</a></li>
+            <li className={styles.dropdown}>
                 <Dropdown>
                     <Dropdown.Toggle variant="success" id="dropdown-basic">
                         Category
@@ -22,7 +20,8 @@ export default function Header() {
                     <Dropdown.Item href="/introduce/senior">高中</Dropdown.Item>
                     <Dropdown.Item href="/introduce/university">大學</Dropdown.Item>
                     </Dropdown.Menu>
-              </Dropdown></li>
+                </Dropdown>
+            </li>
 
           </ul>
 
