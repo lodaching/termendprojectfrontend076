@@ -9,7 +9,7 @@ export default function IntroduceItem({image, title, description}) {
                 <h4>{title}</h4>
             </div>
             {/* <img src={image} className={style.image}/> */}
-            <Image src={image} className={style.image} width={400} height={500}/>
+            <Image src={image} className={style.image} width={400} height={500} alt=""/>
             <div className={style.content}>
                 <p>{description}</p>
             </div>
